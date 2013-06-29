@@ -21,6 +21,10 @@ a
     margin-right: auto
 
 header
+  background: transparent url("/assets/header-bg-tile.png") top center repeat
+
+  .inner
+    background: transparent url("/assets/header-bg.jpg") top center no-repeat
 
   h1
     a
@@ -36,6 +40,7 @@ header
     text-align: center
     border-top: 1px solid #BCA588
     border-bottom: 1px solid #BCA588
+    margin: 0 0 30px 0
 
     a
       display: inline-block
@@ -48,15 +53,33 @@ header
 
       &.active
         color: #ED5200
+
+  section.feature
+    background: #617B8A url("/assets/feature-bg.jpg") center center
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5)
+    color: rgba(255,255,255,0.8)
+    font-weight: bold
+    font-size: 78px
+    line-height: 1em
+    padding: 45px 0
+    text-align: center
+    text-transform: uppercase
+    margin: 0 0 40px 0
     
 section.main_content
+  background: transparent url("/assets/content-bg-tile.png") top center repeat
+
+  .inner
+    background: transparent url("/assets/content-bg.jpg") top center no-repeat
 
   h1
-    background: #7D360C
+    background: #7D360C url("/assets/wood-bg.jpg") top center
+    text-shadow: 0px 3px 1px rgba(0,0,0,0.75)
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3)
     color: #EDE0D8
     text-transform: uppercase
     padding: 20px 0
-    margin: 0
+    margin: 0 0 30px 0
 
   h2
     color: #ED5200
