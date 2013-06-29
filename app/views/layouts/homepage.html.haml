@@ -5,7 +5,7 @@
     %meta( charset="utf-8" )
     %title Prospect.rs
     = stylesheet_link_tag :application
-    %script{ :type => "text/javascript", :src => "//use.typekit.net/obe2qjo.js" }
+    %script( type="text/javascript" src="//use.typekit.net/obe2qjo.js" )
     :javascript
       try{Typekit.load();}catch(e){}
 
@@ -63,8 +63,8 @@
         .row-fluid
 
           .span4
-            
-            = "<some image here>"
+
+            = image_tag "placeholder.jpg"
 
             %h3 
               This is a pic title that can run two lines
@@ -77,7 +77,7 @@
 
           .span4
             
-            = "<some image here>"
+            = image_tag "placeholder.jpg"
 
             %h3 
               This is a pic title that can run two lines
@@ -90,7 +90,7 @@
 
           .span4
             
-            = "<some image here>"
+            = image_tag "placeholder.jpg"
 
             %h3 
               This is a pic title that can run two lines
@@ -127,35 +127,40 @@
           .span6
 
             .event
-              %h3 This is an event title than can run two lines
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
               .date
                 .month May
                 .day 29
               .additional_info 6:00pm Town Hall
 
             .event
-              %h3 This is an event title than can run two lines
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
               .date
                 .month May
                 .day 29
               .additional_info 6:00pm Town Hall
 
             .event
-              %h3 This is an event title than can run two lines
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
               .date
                 .month May
                 .day 29
               .additional_info 6:00pm Town Hall
 
             .event
-              %h3 This is an event title than can run two lines
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
               .date
                 .month May
                 .day 29
               .additional_info 6:00pm Town Hall
 
             .event
-              %h3 This is an event title than can run two lines
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
               .date
                 .month May
                 .day 29
