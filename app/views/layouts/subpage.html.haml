@@ -1,0 +1,125 @@
+!!! 5
+%html( lang="en" )
+
+  %head
+    %meta( charset="utf-8" )
+    %title Prospect.rs
+    = stylesheet_link_tag :application
+    %script( type="text/javascript" src="//use.typekit.net/obe2qjo.js" )
+    :javascript
+      try{Typekit.load();}catch(e){}
+
+  %body
+    
+    %header.text-center
+      .inner
+        .row-fluid
+          .span12
+
+            %h1
+              %a( href="#" ) Prospect.rs - Est. 2013 - Jerome, AZ
+      
+            %nav
+              %a( href="#" ) Photos
+              %a.active( href="#" ) Services
+              %a( href="#" ) Location
+              %a( href="#" ) Events
+              %a( href="#" ) Blog
+              %a( href="#" ) Newsletter
+              %a( href="#" ) Links
+    
+    %section.main_content
+      .inner
+
+        %h1.text-center
+          .row-fluid
+            .span12
+              This is the page title
+
+        .row-fluid
+
+          .span8
+            %h3 This is some other sort of thing
+            
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+
+            %p
+              %a.more( href="#" ) A link to more bullshit
+
+          .span4
+
+            = image_tag "placeholder.jpg"
+
+            %h3 This is some other sort of thing
+            
+            %p
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+
+        .row-fluid
+          .span12
+            .divider
+
+            %h3 Upcomming Events
+            %br
+
+
+        .row-fluid
+
+          .span6
+
+            .event
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
+              .date
+                .month May
+                .day 29
+              .additional_info 6:00pm Town Hall
+
+            .event
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
+              .date
+                .month May
+                .day 29
+              .additional_info 6:00pm Town Hall
+
+          .span6
+
+            .event
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
+              .date
+                .month May
+                .day 29
+              .additional_info 6:00pm Town Hall
+
+            .event
+              %h3
+                %a( href="#" ) This is an event title than can run two lines
+              .date
+                .month May
+                .day 29
+              .additional_info 6:00pm Town Hall
+        
+        .row-fluid
+          .span12
+            .divider
+
+    %footer.text-center
+
+      .row-fluid
+        .span12
+          .hours Open Every Weekday From 10am to 6pm
