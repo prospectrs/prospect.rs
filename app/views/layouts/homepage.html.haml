@@ -5,6 +5,9 @@
     %meta( charset="utf-8" )
     %title Prospect.rs
     = stylesheet_link_tag :application
+    %script{ :type => "text/javascript", :src => "//use.typekit.net/obe2qjo.js" }
+    :javascript
+      try{Typekit.load();}catch(e){}
 
   %body
     
@@ -106,7 +109,7 @@
 
           .span6
 
-            %h3
+            %h3.attn
               This is a blog post title and it should be able to run as many
               lines as it likes
 
