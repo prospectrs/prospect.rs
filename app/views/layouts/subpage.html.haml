@@ -5,9 +5,7 @@
     %meta( charset="utf-8" )
     %title Prospect.rs
     = stylesheet_link_tag :application
-    %script( type="text/javascript" src="//use.typekit.net/obe2qjo.js" )
-    :javascript
-      try{Typekit.load();}catch(e){}
+    = render "shared/typekit_js"
 
   %body
     
@@ -19,14 +17,7 @@
             %h1
               %a( href="#" ) Prospect.rs - Est. 2013 - Jerome, AZ
       
-            %nav
-              %a( href="#" ) Photos
-              %a.active( href="#" ) Services
-              %a( href="#" ) Location
-              %a( href="#" ) Events
-              %a( href="#" ) Blog
-              %a( href="#" ) Newsletter
-              %a( href="#" ) Links
+            = render "shared/main_nav"
     
     %section.main_content
       .inner
@@ -118,8 +109,4 @@
           .span12
             .divider
 
-    %footer.text-center
-
-      .row-fluid
-        .span12
-          .hours Open Every Weekday From 10am to 6pm
+    = render "shared/footer"
