@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Prospect.rs - {{ page.title }}</title>
+    {% stylesheet application %}
+    {% include typekit.html %}
+  </head>
+  <body>
+    <header class='text-center'>
+      <div class='inner'>
+        <div class='row-fluid'>
+          <div class='span12'>
+            {% include header.html %}
+            <section class='feature'>
+              Work for
+              <br>
+              yourself
+              <br>
+              not by
+              <br>
+              yourself
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class='main_content'>
+      {{ content }}
+    </section>
+    {% include footer.html %}
+  </body>
+</html>

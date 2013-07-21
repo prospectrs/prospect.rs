@@ -1,0 +1,160 @@
+//= require bootstrap
+//= require bootstrap-overrides
+
+body
+  color: #4E2800
+  font: 14px/1.5em "sorts-mill-goudy", serif
+
+a
+  color: #ED5200
+
+  &:hover
+    text-decoration: none
+    color: #4E2800
+
+  &.more
+    font: 18px/1.1em "chunk", serif
+    font-weight: bold
+    text-transform: uppercase
+
+.divider
+  background: transparent asset-url('divider.png') top center no-repeat
+  height: 15px
+  margin: 1em 0 3em 0
+
+  &.scrunched
+    width: 185px
+    margin-left: auto
+    margin-right: auto
+
+header
+  background: transparent asset-url("header-bg-tile.png") top center repeat
+
+  .inner
+    background: transparent asset-url("header-bg.jpg") top center no-repeat
+
+  h1
+    a
+      background: transparent asset-url("prospectrs-logo.png") top left no-repeat
+      display: block
+      text-indent: -100000px
+      overflow: hidden
+      width: 520px
+      height: 255px
+      margin: 61px auto 31px auto
+
+  nav
+    text-align: center
+    border-top: 1px solid #BCA588
+    border-bottom: 1px solid #BCA588
+    margin: 0 0 30px 0
+
+    a
+      display: inline-block
+      padding: 12px 12px 8px 12px
+      text-transform: uppercase
+      color: #645047
+      font-family: "chunk", serif
+      font-size: 20px
+      font-weight: bold
+      line-height: 1em
+
+      &.active
+        color: #ED5200
+
+  section.feature
+    background: #617B8A asset-url("feature-bg.jpg") center center no-repeat
+    box-shadow: 0 5px 10px 0px rgba(0,0,0,0.5)
+    color: rgba(255,255,255,0.8)
+    font-weight: bold
+    font-size: 78px
+    line-height: 1em
+    padding: 40px 0 30px 0
+    text-align: center
+    text-transform: uppercase
+    margin: 0 0 40px 0
+    font-family: "chunk", serif
+
+section.main_content
+  background: transparent asset-url("content-bg-tile.png") top center repeat
+
+  .inner
+    background: transparent asset-url("content-bg.jpg") top center no-repeat
+    padding-bottom: 40px
+
+  h1
+    background: #7D360C asset-url("wood-bg.jpg") top center
+    text-shadow: 0px 3px 1px rgba(0,0,0,0.5)
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.3)
+    color: #EDE0D8
+    text-transform: uppercase
+    padding: 20px 0 13px 0
+    margin: 0 0 30px 0
+    font-family: "chunk", serif
+    font-size: 39px
+    line-height: 1em
+
+  h2
+    color: #ED5200
+    text-transform: uppercase
+    font-family: "chunk", serif
+    font: 36px/1em "chunk", serif
+
+  h3
+    text-transform: uppercase
+    font: 24px/1.1em "chunk", serif
+
+    &.attn
+      font-size: 36px
+
+    a
+      color: #4E2800
+
+  p.attn
+    width: 75%
+    font-size: 18px
+    line-height: 1.5em
+    margin-left: auto
+    margin-right: auto
+    margin-bottom: 2em
+
+  .event
+    position: relative
+    padding-left: 70px
+    line-height: 1em
+    margin: 0 0 20px 0
+
+    h3
+      margin: 0
+
+    .date
+      position: absolute
+      top: 0
+      left: 0
+      text-align: center
+      font-family: "chunk", serif
+
+      .month
+        font-size: 20px
+        line-height: 1em
+        text-transform: uppercase
+
+      .day
+        font-size: 48px
+        line-height: 1em
+        color: #ED5200
+
+footer
+  background: #4E2800
+  border-top: 20px solid #ED5200
+  color: #ED5200
+  font-weight: bold
+  text-transform: uppercase
+  font-family: "chunk", serif
+  font-size: 28px
+  line-height: 1em
+  padding: 20px 0 10px 0
+  text-shadow: 0px 3px 1px rgba(0,0,0,0.75)
+
+.hours
+  text-align: center

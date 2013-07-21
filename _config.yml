@@ -1,0 +1,10 @@
+name: Prospect.rs
+
+future:    false
+permalink: /:year/:month/:day/:title
+pygments:  true
+
+assets:
+  compress:
+    css: sass
+    js:  uglifier
