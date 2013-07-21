@@ -1,5 +1,6 @@
 name: Prospect.rs
 
+exclude:   [config.ru, Gemfile, Gemfile.lock, newrelic.yml, Procfile, Procfile.local, Rakefile, README.md, vendor]
 future:    false
 permalink: /:year/:month/:day/:title
 pygments:  true

@@ -43,11 +43,17 @@ GEM
     maruku (0.6.1)
       syntax (>= 1.0.0)
     multi_json (1.7.7)
+    newrelic_rpm (3.6.5.130)
     posix-spawn (0.3.6)
+    puma (2.3.2)
+      rack (>= 1.1, < 2.0)
+    pygmentize (0.0.3)
     pygments.rb (0.5.1)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rack-contrib (1.1.0)
+      rack (>= 0.9.1)
     rake (10.1.0)
     safe_yaml (0.7.1)
     sass (3.2.9)
@@ -79,6 +85,10 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-haml
+  newrelic_rpm
+  puma
+  pygmentize
+  rack-contrib
   rake
   sass
   sprockets

@@ -1,3 +1,12 @@
+namespace :assets do
+
+  desc 'Precompile assets'
+  task precompile: %w[ haml:parse ] do
+    system "bundle exec jekyll build"
+  end
+
+end
+
 namespace :haml do
 
   desc 'Parse haml layouts'
@@ -11,3 +20,5 @@ namespace :haml do
   end
 
 end
+
+task default: %w[ assets:precompile ]
